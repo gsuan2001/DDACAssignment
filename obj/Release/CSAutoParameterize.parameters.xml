@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="UIA-Web.config Connection String" description="UIA Connection String used in web.config by the application to access the database." defaultValue="Server=tcp:uiadb.database.windows.net,1433;Initial Catalog=DDAC;Persist Security Info=False;User ID=Junz;Password=Password123;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\Admin\\Documents\\Visual\ Studio\ 2017\\Projects\\DDAC\\DDAC\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='UIA']/@connectionString" />
+  </parameter>
+  <parameter name="DDACConnectionString-Web.config Connection String" description="DDACConnectionString Connection String used in web.config by the application to access the database." defaultValue="Data Source=ADMIN-PC;Initial Catalog=DDAC;Integrated Security=True" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\Admin\\Documents\\Visual\ Studio\ 2017\\Projects\\DDAC\\DDAC\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='DDACConnectionString']/@connectionString" />
+  </parameter>
+</parameters>
